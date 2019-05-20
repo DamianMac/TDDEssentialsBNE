@@ -11,8 +11,13 @@ namespace myapp
         public void Test1()
         {
 
+            var x = 1 + 5;
+            Assert.Equal(6, x);
+
            
         }
+
+      
     }
 }
 
